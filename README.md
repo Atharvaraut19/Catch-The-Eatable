@@ -1,7 +1,7 @@
 
-# Catch the Eatable Object Game
+# Catch the Eatable
 
-This project is a simple game where the player uses their facial movements to catch eatable objects that fall from the top of the screen. The game utilizes facial recognition and tracking to detect the player's movements and determine if they successfully catch the objects or not.
+"Catch the Eatable" is a simple computer vision-based game where the player needs to open their mouth to "eat" edible objects that fall from the top of the screen. However, if they mistakenly try to eat non-edible objects, the game ends. The game utilizes face detection and facial landmarks to track the player's mouth movements and determine whether the mouth is open or closed. The player's score increases each time they successfully eat an edible object.
 
 ## Methodology
 
@@ -57,3 +57,7 @@ To run this project, you need the following requirements:
 3. The webcam feed will open, and you can start playing the game. Use your facial movements to catch the falling objects.
 
 4. Press the 'r' key to reset the game and start a new round.
+
+
+## Demo
+
