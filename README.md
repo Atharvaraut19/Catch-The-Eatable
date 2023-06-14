@@ -51,7 +51,7 @@ To run this project, you need the following requirements:
 
 2. Run the Python script:
    ```
-   python catch_eatable_object_game.py
+   python catch_the_eatable.py
    ```
 
 3. The webcam feed will open, and you can start playing the game. Use your facial movements to catch the falling objects.
