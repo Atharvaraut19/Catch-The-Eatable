@@ -12,13 +12,13 @@ detector = FaceMeshDetector(maxFaces=1)
 idList = [0, 17, 78, 292]
 
 # import images
-folderEatable = '/Users/atharvaraut/Documents/VSCODE/Objects/eatable'  # Change the folder path accordingly
+folderEatable = 'Catch-The-Eatable/eatable'  # Change the folder path accordingly
 listEatable = os.listdir(folderEatable)
 eatables = []
 for object in listEatable:
     eatables.append(cv2.imread(f'{folderEatable}/{object}', cv2.IMREAD_UNCHANGED))
 
-folderNonEatable = '/Users/atharvaraut/Documents/VSCODE/Objects/noneatable'  # Change the folder path accordingly
+folderNonEatable = 'Catch-The-Eatable/noneatable'  # Change the folder path accordingly
 listNonEatable = os.listdir(folderNonEatable)
 nonEatables = []
 for object in listNonEatable:
