@@ -1,5 +1,5 @@
 
-# Catch the Eatable
+# Catch The Eatable
 
 "Catch the Eatable" is a simple computer vision-based game where the player needs to open their mouth to "eat" edible objects that fall from the top of the screen. However, if they mistakenly try to eat non-edible objects, the game ends. The game utilizes face detection and facial landmarks to track the player's mouth movements and determine whether the mouth is open or closed. The player's score increases each time they successfully eat an edible object.
 
@@ -60,4 +60,8 @@ To run this project, you need the following requirements:
 
 
 ## Demo
+
+
+https://github.com/Atharvaraut19/Catch-The-Eatable/assets/99032908/285de370-1fcd-4db9-a27e-0d493d653aff
+
 
